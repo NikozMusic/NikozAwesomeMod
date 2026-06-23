@@ -1,4 +1,10 @@
 {
   "item.nikozawesomemod.lithium" : "Lithium",
-  "item.nikozawesomemod.magnesium" : "Magnesium"
+  "item.nikozawesomemod.magnesium" : "Magnesium",
+
+
+  "block.nikozawesomemod.lithium_block" : "Lithium Block",
+  "block.nikozawesomemod.magnesium_block" : "Magnesium Block",
+
+  "creativetab.nikozawesomemod.awesome_mod_tab": "Nikoz Awesome Mod"
 }
