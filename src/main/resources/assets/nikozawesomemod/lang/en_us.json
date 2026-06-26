@@ -7,5 +7,8 @@
   "block.nikozawesomemod.magnesium_block" : "Magnesium Block",
   "block.nikozawesomemod.improved_rail" : "Improved Rail",
 
+  "block.nikozawesomemod.lithium_ore" : "Lithium Ore",
+  "block.nikozawesomemod.deepslate_lithium_ore" : "Deepslate Lithium Ore",
+
   "creativetab.nikozawesomemod.awesome_mod_tab": "Nikoz Awesome Mod"
 }

@@ -16,19 +16,29 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(AwesomeMod.MOD_ID); //define what a block is
 
-    // LITHIUM
+
+    // LITHIUM BLOCK
     public static final DeferredBlock<Block> LITHIUM_BLOCK = registerBlock("lithium_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.METAL)));
 
-    // MAGNESIUM
-    public static final DeferredBlock<Block> MAGNESIUM_BLOCK = registerBlock("magnesium_block",
+
+
+    // LITHIUM ORE
+    public static final DeferredBlock<Block> LITHIUM_ORE = registerBlock("lithium_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.METAL)));
+                    .sound(SoundType.STONE)));
+
+    //DEEPSLATE LITHIUM ORE
+    public static final DeferredBlock<Block> DEEPSLATE_LITHIUM_ORE = registerBlock("deepslate_lithium_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3.5f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

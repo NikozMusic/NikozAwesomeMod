@@ -11,7 +11,6 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(AwesomeMod.MOD_ID);
 
     public static final DeferredItem<Item> LITHIUM = ITEMS.register("lithium", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> MAGNESIUM = ITEMS.register("magnesium", () -> new Item(new Item.Properties()));
 
 
     //Register the items

@@ -24,9 +24,9 @@ public class ModCreativeModeTabs {
                         // Add all the items from the tab here
 
                         output.accept(ModItems.LITHIUM);
-                        output.accept(ModItems.MAGNESIUM);
                         output.accept(ModBlocks.LITHIUM_BLOCK);
-                        output.accept(ModBlocks.MAGNESIUM_BLOCK);
+                        output.accept(ModBlocks.DEEPSLATE_LITHIUM_ORE);
+                        output.accept(ModBlocks.LITHIUM_ORE);
                     }).build());
 
 
