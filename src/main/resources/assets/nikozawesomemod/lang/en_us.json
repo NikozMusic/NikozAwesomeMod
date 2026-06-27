@@ -1,14 +1,19 @@
 {
   "item.nikozawesomemod.lithium" : "Lithium",
-  "item.nikozawesomemod.magnesium" : "Magnesium",
+  "item.nikozawesomemod.aluminum_ingot" : "Aluminum Ingot",
+  "item.nikozawesomemod.raw_aluminum" : "Raw Aluminum",
 
-
+  "block.nikozawesomemod.raw_aluminum_block" : "Raw Aluminum Block",
+  "block.nikozawesomemod.aluminum_block" : "Aluminum Block",
   "block.nikozawesomemod.lithium_block" : "Lithium Block",
   "block.nikozawesomemod.magnesium_block" : "Magnesium Block",
   "block.nikozawesomemod.improved_rail" : "Improved Rail",
 
   "block.nikozawesomemod.lithium_ore" : "Lithium Ore",
   "block.nikozawesomemod.deepslate_lithium_ore" : "Deepslate Lithium Ore",
+  "block.nikozawesomemod.aluminum_ore" : "Aluminum Ore",
+  "block.nikozawesomemod.deepslate_aluminum_ore" : "Deepslate Aluminum Ore",
 
-  "creativetab.nikozawesomemod.awesome_mod_tab": "Nikoz Awesome Mod"
+
+  "creativetab.nikozawesomemod.awesome_mod_tab": "Nikoz Awesome Mod!!"
 }

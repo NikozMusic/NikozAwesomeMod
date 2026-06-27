@@ -27,6 +27,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.LITHIUM_BLOCK);
                         output.accept(ModBlocks.DEEPSLATE_LITHIUM_ORE);
                         output.accept(ModBlocks.LITHIUM_ORE);
+                        output.accept(ModBlocks.ALUMINUM_BLOCK);
+                        output.accept(ModBlocks.ALUMINUM_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_ALUMINUM_ORE);
+                        output.accept(ModBlocks.RAW_ALUMINUM_BLOCK);
+                        output.accept(ModItems.RAW_ALUMINUM);
+                        output.accept(ModItems.ALUMINUM_INGOT);
                     }).build());
 
 
